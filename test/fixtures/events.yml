@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  catagory_id: 1
+  icon_url: MyString
+  event_occurs: 2020-01-31 10:21:35
+
+two:
+  name: MyString
+  catagory_id: 1
+  icon_url: MyString
+  event_occurs: 2020-01-31 10:21:35
