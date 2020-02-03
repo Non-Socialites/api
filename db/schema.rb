@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 2020_01_31_182135) do
 
   create_table "events", force: :cascade do |t|
     t.string "name"
-    t.integer "catagory_id"
+    t.integer "category_id"
     t.string "icon_url", default: ""
     t.datetime "event_occurs"
     t.datetime "created_at", precision: 6, null: false
