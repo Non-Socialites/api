@@ -1,7 +1,5 @@
-class CategoryController < ApplicationController
+class EventController < ApplicationController
   def index
-    @catagories = Catagory.all
-    render json: @catagories
   end
 
   def new
