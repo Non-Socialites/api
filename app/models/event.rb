@@ -1,3 +1,3 @@
 class Event < ApplicationRecord
-  has_one :catagory
+  has_one :category
 end
