@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  resources :categories do
-    resources :events
+  resources :category do
+    resources :event do
+      resources :chat
+    end
   end
 
   root "category#index"

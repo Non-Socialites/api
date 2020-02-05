@@ -1,6 +1,6 @@
-class EventController < ApplicationController
+class ChatController < ApplicationController
   def index
-    @events = Event.all
+    @chats = Chat.all
   end
 
   def new
