@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :category do
-    resources :event do
+    resources :schedevent do
       resources :chat
     end
   end

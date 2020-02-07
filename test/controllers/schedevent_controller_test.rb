@@ -1,33 +1,33 @@
 require 'test_helper'
 
-class EventControllerTest < ActionDispatch::IntegrationTest
+class SchedeventControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get event_index_url
+    get schedevent_index_url
     assert_response :success
   end
 
   test "should get new" do
-    get event_new_url
+    get schedevent_new_url
     assert_response :success
   end
 
   test "should get create" do
-    get event_create_url
+    get schedevent_create_url
     assert_response :success
   end
 
   test "should get show" do
-    get event_show_url
+    get schedevent_show_url
     assert_response :success
   end
 
   test "should get edit" do
-    get event_edit_url
+    get schedevent_edit_url
     assert_response :success
   end
 
   test "should get update" do
-    get event_update_url
+    get schedevent_update_url
     assert_response :success
   end
 

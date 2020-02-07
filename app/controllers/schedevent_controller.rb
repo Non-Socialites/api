@@ -1,6 +1,5 @@
-class EventController < ApplicationController
+class SchedeventController < ApplicationController
   def index
-    @events = Event.all
   end
 
   def new
