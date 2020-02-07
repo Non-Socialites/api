@@ -1,2 +1,0 @@
-class Omdb
-end
